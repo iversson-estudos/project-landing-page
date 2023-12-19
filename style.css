@@ -1,0 +1,13 @@
+body{
+    display: flex;
+}
+
+.header-container
+{
+    display: flex;
+}
+
+
+ul{
+    display: flex;
+}
