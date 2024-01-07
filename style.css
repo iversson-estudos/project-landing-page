@@ -13,14 +13,12 @@ ul{
 }
 a{
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 .top-container{
     color:#F9FAF8;
-}
-
-.intro-right{
-    background-color: grey;
+    margin-left: 80px;
 }
 
 .header{
@@ -31,4 +29,40 @@ a{
     justify-content: flex-end;
     gap: 10px;
     list-style: none;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+}
+
+.under-main{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    display: flex;
+    background-color: #F9FAF8;
+}
+
+.bottom-left{
+    display: flex;
+    flex-direction: column;
 }
