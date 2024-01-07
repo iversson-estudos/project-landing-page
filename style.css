@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color:#1F2937;
+    font-family: 'Roboto', sans-serif;
 }
 ul{
     display: flex;
@@ -19,15 +20,20 @@ a{
 .top-container{
     color:#F9FAF8;
     margin-left: 80px;
+    margin-right: 80px;
 }
 
 .header{
     display: flex;
+    align-items: baseline;
+}
+.header h1{
+    margin: 0;
 }
 .header-list{
     flex-grow: 1;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 25px;
     list-style: none;
 }
 
