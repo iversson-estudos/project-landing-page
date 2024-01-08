@@ -40,14 +40,21 @@ a{
 .introduction{
     display: flex;
     flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 20px;
+}
+.intro-left{
+    flex-shrink: 1;
 }
 
 .intro-right{
     display: flex;
+    flex-grow: 1;
     align-items: center;
     justify-content: center;
     height: 200px;
-    width: 400px;
+    width: 800px;
     background-color: grey;
 }
 
@@ -72,3 +79,11 @@ a{
     display: flex;
     flex-direction: column;
 }
+ .button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5%;
+    border: 0;
+ }
