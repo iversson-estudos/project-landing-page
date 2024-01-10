@@ -1,8 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color:#1F2937;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 ul{
     display: flex;
@@ -22,9 +22,10 @@ li{
 
 
 .top-container{
+    background-color:#1F2937;
     color:#F9FAF8;
-    margin-left: 80px;
-    margin-right: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .header{
@@ -39,7 +40,14 @@ li{
     justify-content: flex-end;
     gap: 25px;    
 }
-
+.button-top{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5%;
+    border: 2px;
+ }
 .introduction{
     display: flex;
     flex-direction: row;
@@ -83,7 +91,9 @@ li{
  .info-boxes {
     display: flex;     
     flex-grow: 1;
- }
+    justify-content: center;
+    align-items: center;
+}
 
  .box-text {
     flex-grow: 1;
@@ -92,31 +102,72 @@ li{
     }
 
 
-
-
-
-
-
 .under-main{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+ .under-main-quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+
+ }
+.under-main p{
+    padding: 30px;
+font-size: 36px;
+font-style:italic;
+width: 800px;
 }
 
 .bottom{
     display: flex;
-    background-color: #F9FAF8;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px;
+    border: 5px;
+    margin: 50px;
+    border-radius: 5px;
+        
 }
 
 .bottom-left{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 }
- .button{
+
+.bottom-left h1,p{
+    margin: 0px;
+    
+    
+}
+.bottom-left h1{
+    font-size: 24px;
+    color: white;
+}
+
+.bottom-left p{
+    font-size: 18px;
+    color: white;
+}
+
+
+ .button-bottom{
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 25px;
     padding-right: 25px;
-    border-radius: 5%;
-    border: 0;
+    border-radius: 5px;
+    border: 2px solid white;
+ }
+
+ .footer {
+    padding: 10px;
+    background-color: #1F2937;
+    color: white;
  }
